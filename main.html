@@ -3,9 +3,8 @@
  </head>
  <body>
   <script src="https://www.puck-js.com/puck.js"></script>
-  <button onclick="Puck.write('setServo(SERVO_WORM_PIN, 0);\n');">Open!</button>
-  <button onclick="Puck.write('setServo(SERVO_WORM_PIN, 1);\n');">Close!</button>
-  <button onclick="Puck.write('setServo(SERVO_WORM_PIN, 0);\n');">Stop!</button>
+  <button onclick="Puck.write('lock();\n');">Lock!</button>
+  <button onclick="Puck.write('unlock();\n');">Unlock!</button>
   <br>
   <button onclick="Puck.write('engageWorm();\n');">Engage</button>
   <button onclick="Puck.write('disengageWorm();\n');">Disengage</button>
